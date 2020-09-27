@@ -1,0 +1,22 @@
+#include<studio.h>
+#include<stdlib.h>
+struct emp
+{
+char name [50], dep[50];
+int empid;
+};
+int main(){
+int n;
+printf("enter num of emp");
+scanf("%d",&n);
+struct emp *e=malloc (size of( struct emp)*n);
+for (int i=0;i<n;i++){
+printf("enter emp[%d](name dep empid):",i);
+scanf("%s %s %d", e[i].name,e[i].dep, &e[i].empid);}
+printf("got %d emps)n",n);
+for(int i=0;i<n;i++){
+printf("emp[%d]:\n\tname: %s\n\tdsp, %s\n\tempid: %d\n",i,e[i].name,e[i].dep,e[i].epmid);
+}
+printf("\n");
+free(e);
+}
