@@ -1,0 +1,14 @@
+#include<stdio.h>
+	int main()
+	{
+	int n;
+	printf("enter a number n\n");
+	scanf("%d",&n);
+	switch(n)
+	{
+	case 0:printf("entered number is 0");
+	break;
+	case 1:printf("entered number is 1");
+	break;
+	default:printf("Invalid number in the list");
+	}}
