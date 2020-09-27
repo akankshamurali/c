@@ -1,0 +1,14 @@
+#include<stdio.h>
+	int main()
+	{
+	int a,b;
+		printf("enter values of a and b\n");
+		scanf("%d=\n",&a);
+		scanf("%d=\n",&b);
+	a=a+b;
+	b=a-b;
+	a=a-b;
+	printf("swapped values of a and b\n");
+	printf("a=%d\n",a);
+	printf("b=%d\n",b);
+	}
